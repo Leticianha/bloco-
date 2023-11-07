@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonte/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    box-sizing: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    text-align: center;
+    background-color: #f5c5ff;
+    height: 80px;
+}
+
+header h3 {
+    color: #50095e;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 25px;
+    color: #50095e;
+    padding-left: 15px;
+}
+
+main {
+    background-color: #e0bce838;
+    min-height: 586px;
+}
+
+p {
+    margin: 0 13% 3%;
+    padding-top: 2%;
+    text-align: justify;
+}
+
+.bloco {
+    margin: 0 13%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+textarea {
+    resize: none;
+    width: 555px;
+    min-height: 60px;
+    border: 1px solid #50095e;
+    border-radius: 21px;
+    padding: 15px 15px;
+    background-color: #ffffffbf;
+}
+
+#adicionar-nota, #limpar-notas {
+    height: 27px;
+    width: 26px;
+    border: 1px solid #50095e;
+    border-radius: 70px;
+    margin: 0 10px;
+    color: #50095e;
+    background-color: #f5c5ff;
+}
+
+#adicionar-nota:hover, #limpar-notas:hover {
+    background-color: #dc96ea;
+}
+
+.botoes {
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+#notas-salvas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2% 13%;
+}
+
+.nota {
+    color: rgb(255, 255, 255);
+    width: 303px;
+    min-height: 180px;
+    border-radius: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 4px;
+}
+
+.nota p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nota textarea {
+    resize: none;
+    width: 236px;
+    min-height: 11px;
+    border: 1px solid black;
+    background-color: rgba(224, 224, 224, 0.299);
+    border-radius: 21px;
+    padding: 10px 10px;
+    margin: 3% 17px;
+}
+
+.nota input {
+    width: 23px;
+    height: 23px;
+    background-color: #f0f0f081;
+    margin-bottom: 10px;
+}
+
+.nota button {
+    height: 23px;
+    width: 49px;
+    background-color: #f0f0f081;
+}
+
+footer {
+    color: #50095e;
+    background-color: #f5c5ff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
